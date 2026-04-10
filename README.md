@@ -1,4 +1,14 @@
+# AI Cover Letter Generator
 
+A clean and responsive web app that helps users generate professional, job-ready cover letters instantly using AI. Just enter your details, and the app crafts a personalized cover letter in seconds.
+
+🔗 **Live Demo:** 
+
+---
+## 📸 Screenshot
+![image alt](https://github.com/Harshit-700/Week-4-mission4/blob/93cf4f284c3ddd0921975fcd2ca532e977c42bb2/Screenshot%20(422).png).
+
+---
 
 # 📁 Project Structure
 
