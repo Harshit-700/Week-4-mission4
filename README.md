@@ -2,7 +2,7 @@
 
 A clean and responsive web app that helps users generate professional, job-ready cover letters instantly using AI. Just enter your details, and the app crafts a personalized cover letter in seconds.
 
-🔗 **Live Demo:** 
+🔗 **Live Demo:** [https://week-4-mission4.vercel.app/](https://week-4-mission4.vercel.app/)
 
 ---
 ## 📸 Screenshot
