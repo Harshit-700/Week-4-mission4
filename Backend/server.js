@@ -19,11 +19,12 @@ app.post("/generate", async (req, res) => {
   const { name, role, company, skills } = req.body;
 
   const prompt = `
+Write a professional cover letter using the details below.
+
 Strict Rules:
-- Maximum 80–100 words only
-- Do NOT use markdown, headings, symbols (*, #, -, etc.)
-- Do NOT include addresses, subject lines, or placeholders
-- Keep it simple, clean, and human-like
+- Maximum 80–100 words
+- Keep tone professional and polished
+- No extra explanations
 
 Details:
 Name: ${name}
@@ -31,13 +32,20 @@ Role: ${role}
 Company: ${company}
 Skills: ${skills}
 
-Structure:
-- 1 short opening line
-- 2–3 lines highlighting skills
+Format:
+Start with: Dear Hiring Team at ${company},
+
+Write:
+- 1 short opening line expressing interest
+- 2–3 lines highlighting skills clearly (can group like Frontend, Logic, Frameworks)
 - 1 line showing interest in the company
 - 1 short closing line
 
-Output only the cover letter text. No extra formatting.
+End with:
+Best regards,
+${name}
+
+Output only the cover letter text.
 `;
 
   try {
